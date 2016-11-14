@@ -9,7 +9,7 @@ echo "$SWIFT_AUTH_URL" > /etc/wal-e.d/env/SWIFT_AUTHURL
 echo "$SWIFT_DOMAIN_ID" > /etc/wal-e.d/env/SWIFT_DOMAIN_ID
 echo "$SWIFT_USER" > /etc/wal-e.d/env/SWIFT_USER
 echo "$SWIFT_PASSWORD" > /etc/wal-e.d/env/SWIFT_PASSWORD
-echo "$SWIFT_REGION" > /etc/wal-e.d/env/SWIFT_REGION
+echo "$SWIFT_REGION_NAME" > /etc/wal-e.d/env/SWIFT_REGION
 echo "$SWIFT_TENANT_ID" > /etc/wal-e.d/env/SWIFT_TENANT_ID
 echo "$SWIFT_USER_DOMAIN_ID" > /etc/wal-e.d/env/SWIFT_USER_DOMAIN_ID
 echo "$SWIFT_USER_ID" > /etc/wal-e.d/env/SWIFT_USER_ID
