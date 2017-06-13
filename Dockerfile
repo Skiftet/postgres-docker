@@ -8,7 +8,7 @@ RUN localedef -i sv_SE -c -f UTF-8 -A /usr/share/locale/locale.alias sv_SE.UTF-8
 ENV LANG sv_SE.utf8
 
 RUN apt-get update \
-   && apt-get install -y python3-pip python3.4 lzop pv daemontools git \
+   && apt-get install -y python3-pip python3.4 lzop pv daemontools git postgresql-plpython-9.6 \
    && pip3 install git+https://github.com/JoelESvensson/wal-e python-swiftclient python-keystoneclient dumb-init \
    && apt-get remove -y git \
    && apt-get clean \
