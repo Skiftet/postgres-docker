@@ -9,7 +9,7 @@ ENV LANG sv_SE.utf8
 
 RUN apt-get update \
    && apt-get install -y python3-pip python3.4 lzop pv daemontools git postgresql-plpython-9.6 \
-   && pip3 install git+https://github.com/JoelESvensson/wal-e python-swiftclient python-keystoneclient dumb-init \
+   && pip3 install wal-e[swift] python-swiftclient python-keystoneclient dumb-init \
    && apt-get remove -y git \
    && apt-get clean \
    && rm -rf /var/lib/apt/lists/*
